@@ -1,0 +1,65 @@
++-----------------+
+|     GpuSpec     |
++-----------------+
+| - model: string |
+| - memory: int   |
++-----------------+
+| + Print()       |
+| + Export(filename: string) |
+| + Import(filename: string) |
++-----------------+
+
++-----------------+
+|     CpuSpec     |
++-----------------+
+| - model: string |
+| - cores: int    |
++-----------------+
+| + Print()       |
+| + Export(filename: string) |
+| + Import(filename: string) |
++-----------------+
+
++-----------------+
+|     RamSpec     |
++-----------------+
+| - size: int     |
++-----------------+
+| + Print()       |
+| + Export(filename: string) |
+| + Import(filename: string) |
++-----------------+
+
++-----------------+
+|     LanSpec     |
++-----------------+
+| - model: string |
++-----------------+
+| + Print()       |
+| + Export(filename: string) |
+| + Import(filename: string) |
++-----------------+
+
++---------------------+
+|     ClusterNode     |
++---------------------+
+| - gpu: GpuSpec      |
+| - cpu: CpuSpec      |
+| - ram: RamSpec      |
+| - lan: LanSpec      |
++---------------------+
+| + Print()           |
+| + Export(filename: string) |
+| + Import(filename: string) |
++---------------------+
+
++---------------------+
+|       Cluster       |
++---------------------+
+| - nodes: vector<ClusterNode> |
++---------------------+
+| + AddNode(node: ClusterNode) |
+| + Print()           |
+| + Export(filename: string) |
+| + Import(filename: string) |
++---------------------+
