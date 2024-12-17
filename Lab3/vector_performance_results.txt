@@ -1,0 +1,10 @@
+Parallel Min Time: 1.00266e-05 seconds
+Sequential Min Time: 1.00266e-05 seconds
+Parallel Max Time: 9.99998 seconds
+Sequential Max Time: 9.99998 seconds
+Parallel Sum Time: 4.9997e+06 seconds
+Sequential Sum Time: 4.9997e+06 seconds
+Parallel Euclidean Norm Time: 5772.28 seconds
+Sequential Euclidean Norm Time: 5772.28 seconds
+Parallel Manhattan Norm Time: 4.9997e+06 seconds
+Sequential Manhattan Norm Time: 4.9997e+06 seconds
